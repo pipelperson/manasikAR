@@ -1,15 +1,23 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class MusicManager : MonoBehaviour
 {
     public static MusicManager instance;
 
+    [Header("Audio Source")]
     public AudioSource audioSource;
 
+    [Header("Music Clips")]
     public AudioClip menuMusic;
     public AudioClip playMusic;
     public AudioClip quizMusic;
+
+    [Header("Settings")]
+    public float fadeDuration = 0.5f;
+
+    float baseVolume;
 
     void Awake()
     {
@@ -28,7 +36,7 @@ public class MusicManager : MonoBehaviour
 
     void Start()
     {
-        // Musik pertama saat app dibuka
+        baseVolume = audioSource.volume;
         ChangeMusic(menuMusic);
     }
 
@@ -50,12 +58,43 @@ public class MusicManager : MonoBehaviour
         }
     }
 
-    void ChangeMusic(AudioClip newClip)
+    public void ChangeMusic(AudioClip newClip)
     {
         if (audioSource.clip == newClip) return;
 
+        StartCoroutine(FadeMusic(newClip));
+    }
+
+    IEnumerator FadeMusic(AudioClip newClip)
+    {
+        // FADE OUT
+        float startVolume = audioSource.volume;
+
+        for (float t = 0; t < fadeDuration; t += Time.deltaTime)
+        {
+            audioSource.volume = Mathf.Lerp(startVolume, 0, t / fadeDuration);
+            yield return null;
+        }
+
+        audioSource.volume = 0;
         audioSource.Stop();
+
+        // GANTI MUSIC
         audioSource.clip = newClip;
         audioSource.Play();
+
+        // FADE IN
+        for (float t = 0; t < fadeDuration; t += Time.deltaTime)
+        {
+            audioSource.volume = Mathf.Lerp(0, baseVolume, t / fadeDuration);
+            yield return null;
+        }
+
+        audioSource.volume = baseVolume;
+    }
+
+    void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 }
