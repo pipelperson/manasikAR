@@ -560,10 +560,10 @@ RectTransform:
   m_Father: {fileID: 1727971558}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.049673207, y: 0.8808383}
-  m_AnchorMax: {x: 0.049673207, y: 0.8808383}
-  m_AnchoredPosition: {x: 86, y: 114}
-  m_SizeDelta: {x: 247, y: 256}
+  m_AnchorMin: {x: 0.049673207, y: 0.89261764}
+  m_AnchorMax: {x: 0.19100001, y: 0.9563677}
+  m_AnchoredPosition: {x: -1, y: -4.5}
+  m_SizeDelta: {x: 73, y: 83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &187174026
 MonoBehaviour:
@@ -851,13 +851,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 
+  mTrackableName: langkah5
   mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 1
-  mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.2
+  mDataSetPath: Vuforia/manasikAR.xml
+  mAspectRatio: 1.414358
+  mImageTargetType: 0
+  mWidth: 1
+  mHeight: 1.414358
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -906,8 +906,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 251235691}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 
-  mDatasetName: 
+  mTargetName: langkah5
+  mDatasetName: Vuforia/manasikAR.xml
   mCastedBehaviour: {fileID: 251235691}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -946,10 +946,10 @@ RectTransform:
   m_Father: {fileID: 1380156945}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.39253965, y: 0.7923198}
-  m_AnchorMax: {x: 0.57253957, y: 0.9468811}
-  m_AnchoredPosition: {x: 20.056, y: -861}
-  m_SizeDelta: {x: -8.5826, y: -3.9468}
+  m_AnchorMin: {x: 0.4214235, y: 0.10947299}
+  m_AnchorMax: {x: 0.59684694, y: 0.26900002}
+  m_AnchoredPosition: {x: -10.444, y: -4}
+  m_SizeDelta: {x: -3.5825958, y: -9.946777}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &356467717
 MonoBehaviour:
@@ -1095,10 +1095,10 @@ RectTransform:
   m_Father: {fileID: 184932426}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.39253965, y: 0.7923198}
-  m_AnchorMax: {x: 0.57253957, y: 0.9468811}
-  m_AnchoredPosition: {x: 20.056, y: -861}
-  m_SizeDelta: {x: -8.5826, y: -3.9468}
+  m_AnchorMin: {x: 0.40432936, y: 0.10538857}
+  m_AnchorMax: {x: 0.5846822, y: 0.2705506}
+  m_AnchoredPosition: {x: 6.5559998, y: -2.5}
+  m_SizeDelta: {x: -9.582596, y: -16.946777}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &441886418
 MonoBehaviour:
@@ -1288,13 +1288,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 
+  mTrackableName: langkah4
   mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 1
-  mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.2
+  mDataSetPath: Vuforia/manasikAR.xml
+  mAspectRatio: 1.414358
+  mImageTargetType: 0
+  mWidth: 1
+  mHeight: 1.414358
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -1343,8 +1343,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 557242948}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 
-  mDatasetName: 
+  mTargetName: langkah4
+  mDatasetName: Vuforia/manasikAR.xml
   mCastedBehaviour: {fileID: 557242948}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -1427,13 +1427,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 
+  mTrackableName: langkah3
   mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 1
-  mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.2
+  mDataSetPath: Vuforia/manasikAR.xml
+  mAspectRatio: 1.414358
+  mImageTargetType: 0
+  mWidth: 1
+  mHeight: 1.414358
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -1482,8 +1482,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 725488233}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 
-  mDatasetName: 
+  mTargetName: langkah3
+  mDatasetName: Vuforia/manasikAR.xml
   mCastedBehaviour: {fileID: 725488233}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -1566,13 +1566,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 
+  mTrackableName: langkah7
   mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 1
-  mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.2
+  mDataSetPath: Vuforia/manasikAR.xml
+  mAspectRatio: 1.414358
+  mImageTargetType: 0
+  mWidth: 1
+  mHeight: 1.414358
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -1621,8 +1621,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 800372434}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 
-  mDatasetName: 
+  mTargetName: langkah7
+  mDatasetName: Vuforia/manasikAR.xml
   mCastedBehaviour: {fileID: 800372434}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -1895,6 +1895,7 @@ GameObject:
   - component: {fileID: 955637774}
   - component: {fileID: 955637773}
   - component: {fileID: 955637776}
+  - component: {fileID: 955637777}
   m_Layer: 5
   m_Name: ButtonSound
   m_TagString: Untagged
@@ -1917,10 +1918,10 @@ RectTransform:
   m_Father: {fileID: 974791834}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.39253965, y: 0.7923198}
-  m_AnchorMax: {x: 0.57253957, y: 0.9468811}
-  m_AnchoredPosition: {x: 20.056, y: -861}
-  m_SizeDelta: {x: -8.5826, y: -3.9468}
+  m_AnchorMin: {x: 0.4024235, y: 0.1095034}
+  m_AnchorMax: {x: 0.59177643, y: 0.2597331}
+  m_AnchoredPosition: {x: 3.5559998, y: 2}
+  m_SizeDelta: {x: -19.582596, y: 2.0532227}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &955637773
 MonoBehaviour:
@@ -2031,6 +2032,18 @@ MonoBehaviour:
   audioSource: {fileID: 945520361}
   soundOnSprite: {fileID: 21300000, guid: 493fd7d0e626d4db091f50928058f0b8, type: 3}
   soundOffSprite: {fileID: 21300000, guid: a7e1e81117197488db394021a1b04920, type: 3}
+--- !u!114 &955637777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955637771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0e1e4786f3d4a548b9445fe791bb92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &974791833
 GameObject:
   m_ObjectHideFlags: 0
@@ -2392,13 +2405,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 
+  mTrackableName: langkah6
   mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 1
-  mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.2
+  mDataSetPath: Vuforia/manasikAR.xml
+  mAspectRatio: 1.414358
+  mImageTargetType: 0
+  mWidth: 1
+  mHeight: 1.414358
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -2447,8 +2460,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1086644329}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 
-  mDatasetName: 
+  mTargetName: langkah6
+  mDatasetName: Vuforia/manasikAR.xml
   mCastedBehaviour: {fileID: 1086644329}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -2615,13 +2628,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 
+  mTrackableName: langkah1
   mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 1
-  mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.2
+  mDataSetPath: Vuforia/manasikAR.xml
+  mAspectRatio: 1.414358
+  mImageTargetType: 0
+  mWidth: 1
+  mHeight: 1.414358
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -2670,8 +2683,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1203968510}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 
-  mDatasetName: 
+  mTargetName: langkah1
+  mDatasetName: Vuforia/manasikAR.xml
   mCastedBehaviour: {fileID: 1203968510}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -2754,13 +2767,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 
+  mTrackableName: langkah2
   mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 1
-  mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.2
+  mDataSetPath: Vuforia/manasikAR.xml
+  mAspectRatio: 1.414358
+  mImageTargetType: 0
+  mWidth: 1
+  mHeight: 1.414358
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -2809,8 +2822,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1277034682}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 
-  mDatasetName: 
+  mTargetName: langkah2
+  mDatasetName: Vuforia/manasikAR.xml
   mCastedBehaviour: {fileID: 1277034682}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -2943,10 +2956,10 @@ RectTransform:
   m_Father: {fileID: 1594952289}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.39253965, y: 0.7923198}
-  m_AnchorMax: {x: 0.57253957, y: 0.9468811}
-  m_AnchoredPosition: {x: 20.056, y: -861}
-  m_SizeDelta: {x: -8.5826, y: -3.9468}
+  m_AnchorMin: {x: 0.4074235, y: 0.1095034}
+  m_AnchorMax: {x: 0.59177643, y: 0.2642365}
+  m_AnchoredPosition: {x: 0.55599976, y: -1}
+  m_SizeDelta: {x: -13.582596, y: -3.9467773}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1333729783
 MonoBehaviour:
@@ -3297,10 +3310,10 @@ RectTransform:
   m_Father: {fileID: 188206098}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.39253965, y: 0.7923198}
-  m_AnchorMax: {x: 0.57253957, y: 0.9468811}
-  m_AnchoredPosition: {x: 20.056, y: -861}
-  m_SizeDelta: {x: -8.5826, y: -3.9468}
+  m_AnchorMin: {x: 0.42164707, y: 0.11400001}
+  m_AnchorMax: {x: 0.58742344, y: 0.2602601}
+  m_AnchoredPosition: {x: -4.9440002, y: -1.5}
+  m_SizeDelta: {x: 7.417404, y: 7.0532227}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1545768961
 MonoBehaviour:
@@ -3523,10 +3536,10 @@ RectTransform:
   m_Father: {fileID: 2054995325}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.39253965, y: 0.7923198}
-  m_AnchorMax: {x: 0.57253957, y: 0.9468811}
-  m_AnchoredPosition: {x: 20.056, y: -861}
-  m_SizeDelta: {x: -8.5826, y: -3.9468}
+  m_AnchorMin: {x: 0.40816468, y: 0.10844939}
+  m_AnchorMax: {x: 0.5881646, y: 0.24911484}
+  m_AnchoredPosition: {x: 2.0559998, y: 9}
+  m_SizeDelta: {x: -8.582596, y: 14.053223}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1604223274
 MonoBehaviour:
@@ -3716,13 +3729,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 
+  mTrackableName: langkah8
   mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 1
-  mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.2
+  mDataSetPath: Vuforia/manasikAR.xml
+  mAspectRatio: 1.414358
+  mImageTargetType: 0
+  mWidth: 1
+  mHeight: 1.414358
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -3771,8 +3784,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1604853374}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 
-  mDatasetName: 
+  mTargetName: langkah8
+  mDatasetName: Vuforia/manasikAR.xml
   mCastedBehaviour: {fileID: 1604853374}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -3895,7 +3908,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1786693213}
   - component: {fileID: 1786693212}
-  - component: {fileID: 1786693211}
   - component: {fileID: 1786693210}
   - component: {fileID: 1786693209}
   m_Layer: 0
@@ -3931,14 +3943,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mWorldCenterMode: 2
   mWorldCenter: {fileID: 0}
---- !u!81 &1786693211
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1786693208}
-  m_Enabled: 1
 --- !u!20 &1786693212
 Camera:
   m_ObjectHideFlags: 0
@@ -4237,10 +4241,10 @@ RectTransform:
   m_Father: {fileID: 1797624800}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.39253965, y: 0.7923198}
-  m_AnchorMax: {x: 0.57253957, y: 0.9468811}
-  m_AnchoredPosition: {x: 20.056, y: -861}
-  m_SizeDelta: {x: -8.5826, y: -3.9468}
+  m_AnchorMin: {x: 0.40727043, y: 0.1097331}
+  m_AnchorMax: {x: 0.59177643, y: 0.2554966}
+  m_AnchoredPosition: {x: 0.55599976, y: 4}
+  m_SizeDelta: {x: -13.5826, y: 8.053223}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1957513069
 MonoBehaviour:
@@ -4386,10 +4390,10 @@ RectTransform:
   m_Father: {fileID: 1079645343}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.39253965, y: 0.7923198}
-  m_AnchorMax: {x: 0.57253957, y: 0.9468811}
-  m_AnchoredPosition: {x: 20.056, y: -861}
-  m_SizeDelta: {x: -8.5826, y: -3.9468}
+  m_AnchorMin: {x: 0.4046823, y: 0.11559465}
+  m_AnchorMax: {x: 0.5881646, y: 0.2664662}
+  m_AnchoredPosition: {x: 4.0559998, y: -6.5}
+  m_SizeDelta: {x: -12.582596, y: 1.0532227}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1998083533
 MonoBehaviour:
