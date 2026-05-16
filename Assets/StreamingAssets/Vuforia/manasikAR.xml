@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="langkah3" size="1.000000 1.414358" />
+    <ImageTarget name="langkah8" size="1.000000 1.414358" />
+    <ImageTarget name="langkah7" size="1.000000 1.414358" />
+    <ImageTarget name="langkah6" size="1.000000 1.414358" />
+    <ImageTarget name="langkah5" size="1.000000 1.414358" />
+    <ImageTarget name="langkah4" size="1.000000 1.414358" />
+    <ImageTarget name="langkah2" size="1.000000 1.414358" />
+    <ImageTarget name="langkah1" size="1.000000 1.414358" />
+  </Tracking>
+</QCARConfig>
