@@ -24,6 +24,7 @@ public class MusicManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
+
             DontDestroyOnLoad(gameObject);
 
             SceneManager.sceneLoaded += OnSceneLoaded;
@@ -37,30 +38,51 @@ public class MusicManager : MonoBehaviour
     void Start()
     {
         baseVolume = audioSource.volume;
+
         ChangeMusic(menuMusic);
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        switch (scene.name)
+        // ====================================
+        // QUIZ MODE
+        // ====================================
+
+        if (FindObjectOfType<QuizBGMManager>() != null)
         {
-            case "PlayScene":
-                ChangeMusic(playMusic);
-                break;
+            ChangeMusic(quizMusic);
+            return;
+        }
 
-            case "QuizScene":
-                ChangeMusic(quizMusic);
-                break;
+        // ====================================
+        // PLAY SCENE
+        // ====================================
 
-            default:
-                ChangeMusic(menuMusic);
-                break;
+        if (scene.name == "PlayScene")
+        {
+            ChangeMusic(playMusic);
+        }
+
+        // ====================================
+        // MENU / GUIDE / ABOUT / SPLASH
+        // ====================================
+
+        else
+        {
+            ChangeMusic(menuMusic);
         }
     }
 
     public void ChangeMusic(AudioClip newClip)
     {
-        if (audioSource.clip == newClip) return;
+        // kalau music sama & masih play
+        if (audioSource.clip == newClip &&
+            audioSource.isPlaying)
+        {
+            return;
+        }
+
+        StopAllCoroutines();
 
         StartCoroutine(FadeMusic(newClip));
     }
@@ -72,21 +94,29 @@ public class MusicManager : MonoBehaviour
 
         for (float t = 0; t < fadeDuration; t += Time.deltaTime)
         {
-            audioSource.volume = Mathf.Lerp(startVolume, 0, t / fadeDuration);
+            audioSource.volume =
+                Mathf.Lerp(startVolume, 0, t / fadeDuration);
+
             yield return null;
         }
 
         audioSource.volume = 0;
+
         audioSource.Stop();
 
         // GANTI MUSIC
         audioSource.clip = newClip;
+
+        audioSource.loop = true;
+
         audioSource.Play();
 
         // FADE IN
         for (float t = 0; t < fadeDuration; t += Time.deltaTime)
         {
-            audioSource.volume = Mathf.Lerp(0, baseVolume, t / fadeDuration);
+            audioSource.volume =
+                Mathf.Lerp(0, baseVolume, t / fadeDuration);
+
             yield return null;
         }
 

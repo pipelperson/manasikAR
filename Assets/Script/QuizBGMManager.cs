@@ -7,7 +7,7 @@ public class QuizBGMManager : MonoBehaviour
 
     void Awake()
     {
-        
+        // kalau sudah ada
         if (instance != null)
         {
             Destroy(gameObject);
@@ -15,6 +15,7 @@ public class QuizBGMManager : MonoBehaviour
         }
 
         instance = this;
+
         DontDestroyOnLoad(gameObject);
     }
 
@@ -30,15 +31,27 @@ public class QuizBGMManager : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name == "Quiz1Scene" || 
-            scene.name == "Quiz2Scene" || 
-            scene.name == "Quiz3Scene" || 
-            scene.name == "Quiz4Scene" || 
-            scene.name == "Quiz5Scene")
+        // keluar dari semua scene quiz
+        if (!scene.name.Contains("Quiz") &&
+            scene.name != "SelesaiQuiz")
         {
-        }
-        else
-        {
+            // kembali ke music normal
+            if (MusicManager.instance != null)
+            {
+                if (scene.name == "PlayScene")
+                {
+                    MusicManager.instance.ChangeMusic(
+                        MusicManager.instance.playMusic
+                    );
+                }
+                else
+                {
+                    MusicManager.instance.ChangeMusic(
+                        MusicManager.instance.menuMusic
+                    );
+                }
+            }
+
             Destroy(gameObject);
         }
     }

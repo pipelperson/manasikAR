@@ -1431,7 +1431,6 @@ MonoBehaviour:
   audioSource: {fileID: 1948943849}
   menuMusic: {fileID: 8300000, guid: 6324992055c9c43f09556b141f59e91e, type: 3}
   playMusic: {fileID: 8300000, guid: 2d5ab97719a044ab8bbd8aa712a5352c, type: 3}
-  quizMusic: {fileID: 0}
   fadeDuration: 0.5
 --- !u!82 &1948943849
 AudioSource:
