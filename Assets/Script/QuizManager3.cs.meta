@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a96fb273db534452b948bf96dd2c687c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - PanelPenjelasan: {instanceID: 0}
+  - lanjut: {instanceID: 0}
+  - audioSource: {instanceID: 0}
+  - correct: {fileID: 8300000, guid: b7d52cdec61444cf2aca77cb4eed131f, type: 3}
+  - wrong: {fileID: 8300000, guid: 5e685e2135d11461dbf5d8b2e5fd2dc5, type: 3}
+  - Miqat: {instanceID: 0}
+  - Muzdalifa: {instanceID: 0}
+  - Mina: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
