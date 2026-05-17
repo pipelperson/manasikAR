@@ -19,7 +19,7 @@ public class MusicManager : MonoBehaviour
 
     [Header("Scene Volume Settings")]
     public float menuVolume = 1f;
-    public float playSceneVolume = 0.3f;
+    public float playSceneVolume = 0.1f; // 🔉 10% volume PlayScene
     public float quizVolume = 1f;
 
     float targetVolume;

@@ -1430,9 +1430,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1948943849}
   menuMusic: {fileID: 8300000, guid: 6324992055c9c43f09556b141f59e91e, type: 3}
-  playMusic: {fileID: 8300000, guid: 2d5ab97719a044ab8bbd8aa712a5352c, type: 3}
+  playMusic: {fileID: 8300000, guid: b4091fc0f000e41c4b8384c4d209b5a9, type: 3}
   quizMusic: {fileID: 0}
   fadeDuration: 0.5
+  menuVolume: 1
+  playSceneVolume: 0.3
+  quizVolume: 1
 --- !u!82 &1948943849
 AudioSource:
   m_ObjectHideFlags: 0
