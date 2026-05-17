@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
 
 public class AwanTahanBanting : MonoBehaviour
 {
@@ -30,16 +30,23 @@ public class AwanTahanBanting : MonoBehaviour
 
     void PadaSaatSceneDimuat(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name == "PlayScene" || scene.name == "Quiz1Scene")
+        if (IsQuizScene(scene.name) || scene.name == "PlayScene")
         {
-            // Sembunyikan awan
             AturTampilanAwan(false);
         }
         else
         {
-            // Tampilkan kembali awan di scene lainnya (MainMenu, About, Guide)
             AturTampilanAwan(true);
         }
+    }
+
+    bool IsQuizScene(string sceneName)
+    {
+        return sceneName == "Quiz1Scene" ||
+               sceneName == "Quiz2Scene" ||
+               sceneName == "Quiz3Scene" ||
+               sceneName == "Quiz4Scene" ||
+               sceneName == "Quiz5Scene";
     }
 
     void AturTampilanAwan(bool tampil)
