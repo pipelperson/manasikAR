@@ -22,6 +22,11 @@ public class UIButton : MonoBehaviour
         SceneLoader.instance.LoadAboutScene();
     }
 
+    public void Setting()
+    {
+        SceneLoader.instance.LoadSettingScene();
+    }
+
     // 🔙 BACK TO MAIN MENU
     public void MainMenu()
     {

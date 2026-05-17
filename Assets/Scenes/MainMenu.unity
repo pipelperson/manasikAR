@@ -2766,6 +2766,7 @@ GameObject:
   - component: {fileID: 1940690625}
   - component: {fileID: 1940690624}
   - component: {fileID: 1940690627}
+  - component: {fileID: 1940690628}
   m_Layer: 5
   m_Name: ButtonSetting
   m_TagString: Untagged
@@ -2788,10 +2789,10 @@ RectTransform:
   m_Father: {fileID: 210412865}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.79200006, y: 0.8811618}
-  m_AnchorMax: {x: 0.79200006, y: 0.8811618}
-  m_AnchoredPosition: {x: 113, y: 113}
-  m_SizeDelta: {x: 247, y: 256}
+  m_AnchorMin: {x: 0.82729036, y: 0.90244365}
+  m_AnchorMax: {x: 0.95000005, y: 0.9501855}
+  m_AnchoredPosition: {x: -7, y: -12}
+  m_SizeDelta: {x: 95, y: 124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1940690624
 MonoBehaviour:
@@ -2849,6 +2850,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1940690628}
+        m_TargetAssemblyTypeName: UIButton, Assembly-CSharp
+        m_MethodName: Setting
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1940690625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2897,6 +2910,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec0e1e4786f3d4a548b9445fe791bb92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1940690628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940690622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 862f69262460b4adabdf06fa2b9165a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2113191913

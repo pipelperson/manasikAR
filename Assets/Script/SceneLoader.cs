@@ -42,4 +42,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void LoadSettingScene()
+    {
+        SceneManager.LoadScene("SettingScene");
+    }
 }

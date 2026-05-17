@@ -1434,7 +1434,7 @@ MonoBehaviour:
   quizMusic: {fileID: 0}
   fadeDuration: 0.5
   menuVolume: 1
-  playSceneVolume: 0.3
+  playSceneVolume: 0.05
   quizVolume: 1
 --- !u!82 &1948943849
 AudioSource:
